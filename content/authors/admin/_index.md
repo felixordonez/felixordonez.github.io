@@ -105,4 +105,6 @@ highlight_name: true
 ---
 
 I am a Phd student in Finance. My work is in the fields of Macro, Hosehold Finance and Computational Economics. I was a researcher at the [Faculty of Economics at Universidad de Santiago de Chile](https://fae.usach.cl/fae/), and also contributed as a programmer to the [Dynare-Julia](https://github.com/DynareJulia/Dynare.jl) project. I was consultant in International Labor Organization and economist in the Central Bank of Chile. 
+
+Download my [CV](link: uploads/resume.pdf)
 {style="text-align: justify;"}
