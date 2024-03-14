@@ -134,7 +134,7 @@ sections:
     design:
       columns: '2'
       view: citation
-  - block: WP
+  - block: skills
     content:
       title: Work in progress
       text: ''
