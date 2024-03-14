@@ -62,23 +62,23 @@ skills:
       - name: Julia
         description: ''
         percent: 100
-        icon: devicon/julia
+        icon: julia
         #icon_pack: devicon
       - name: Stata
         description: ''
         percent: 75
-        icon: devicon/stata
+        icon: stata
         #icon_pack: devicon
       - name: Fortran
         description: ''
         percent: 75
-        icon: devicon/fortran
-        icon_pack: devicon
+        icon: fortran
+        #icon_pack: devicon
       - name: C++
         description: ''
         percent: 50
-        icon: devicon/cplusplus
-        icon_pack: devicon
+        icon: cplusplus
+        #icon_pack: devicon
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
