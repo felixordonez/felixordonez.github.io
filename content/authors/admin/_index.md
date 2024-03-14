@@ -62,23 +62,23 @@ skills:
       - name: Julia
         description: ''
         percent: 100
-        icon: chart-line
-        icon_pack: fas
+        icon: julia
+        icon_pack: fab
       - name: Stata
         description: ''
         percent: 40
-        icon: database
-        icon_pack: fas
+        icon: stata
+        icon_pack: fab
       - name: Fortran
         description: ''
         percent: 40
-        icon: database
-        icon_pack: fas
+        icon: fortran
+        icon_pack: fab
       - name: C++
         description: ''
         percent: 40
-        icon: database
-        icon_pack: fas
+        icon: cplusplus
+        icon_pack: fab
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
