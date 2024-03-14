@@ -207,7 +207,7 @@ sections:
     design:
       columns: '2'
       view: card
-- block: skills
+  - block: skills
     content:
       title: Skills
       text: ''
