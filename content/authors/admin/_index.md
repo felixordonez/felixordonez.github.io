@@ -62,22 +62,22 @@ skills:
       - name: Julia
         description: ''
         percent: 100
-        icon: julia
+        icon: icons/julia
         #icon_pack: devicon
       - name: Stata
         description: ''
         percent: 75
         icon: stata
-        #icon_pack: devicon
+        icon_pack: icons
       - name: Fortran
         description: ''
         percent: 75
-        icon: fortran
-        #icon_pack: devicon
+        icon: icons/fortran
+        icon_pack: icons
       - name: C++
         description: ''
         percent: 50
-        icon: cplusplus
+        icon: assets/media/icons/cplusplus.svg
         #icon_pack: devicon
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -95,7 +95,7 @@ social:
     link: https://github.com/FOJ-0
   - icon: linkedin
     icon_pack: fab
-    link: www.linkedin.com/in/félix-ordóñez-jofré-a45467110
+    link: https://www.linkedin.com/in/félix-ordóñez-jofré-a45467110
   - icon: cv
     icon_pack: ai
     link: uploads/resume.pdf
@@ -106,5 +106,5 @@ highlight_name: true
 
 I am a Phd student in Finance. My work is in the fields of Macro, Hosehold Finance and Computational Economics. I was a researcher at the [Faculty of Economics at Universidad de Santiago de Chile](https://fae.usach.cl/fae/), and also contributed as a programmer to the [Dynare-Julia](https://github.com/DynareJulia/Dynare.jl) project. I was consultant in International Labor Organization and economist in the Central Bank of Chile. 
 
-Download my [CV](uploads/resume.pdf)
+:download: Download my [CV](uploads/resume.pdf)
 {style="text-align: justify;"}
