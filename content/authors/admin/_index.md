@@ -62,22 +62,22 @@ skills:
       - name: Julia
         description: ''
         percent: 100
-        icon: assets/media/icons/julia
+        icon: assets/media/icons/brands/julia
         #icon_pack: devicon
       - name: Stata
         description: ''
         percent: 75
-        icon: assets/media/icons/stata
+        icon: assets/media/icons/brands/stata
         #icon_pack: devicon
       - name: Fortran
         description: ''
         percent: 75
-        icon: assets/media/icons/fortran
+        icon: assets/media/icons/brands/fortran
         #icon_pack: devicon
       - name: C++
         description: ''
         percent: 50
-        icon: assets/media/icons/cplusplus
+        icon: assets/media/icons/brands/cplusplus
         #icon_pack: devicon
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
