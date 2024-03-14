@@ -56,29 +56,29 @@ skills:
     items:
       - name: Python
         description: ''
-        percent: 80
+        percent: 100
         icon: python
         icon_pack: fab
       - name: Julia
         description: ''
         percent: 100
         icon: julia
-        icon_pack: fab
+        icon_pack: devicon
       - name: Stata
         description: ''
-        percent: 40
+        percent: 75
         icon: stata
-        icon_pack: fab
+        icon_pack: devicon
       - name: Fortran
         description: ''
-        percent: 40
+        percent: 75
         icon: fortran
-        icon_pack: fab
+        icon_pack: devicon
       - name: C++
         description: ''
-        percent: 40
+        percent: 50
         icon: cplusplus
-        icon_pack: fab
+        icon_pack: devicon
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
