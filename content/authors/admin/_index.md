@@ -62,7 +62,7 @@ skills:
       - name: Julia
         description: ''
         percent: 100
-        icon: icons/julia
+        icon: devicon/rstudio
         #icon_pack: devicon
       - name: Stata
         description: ''
