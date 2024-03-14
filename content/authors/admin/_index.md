@@ -38,13 +38,16 @@ education:
   courses:
     - course: PhD student in Finance
       institution: BI Norwegian Business School
-      year: 2012
+      year: 2024
     - course: Msc in Economics
       institution: Universidad de Chile
-      year: 2009
+      year: 2022
+    - course: Diploma in Big Data
+      institution: Pontificia Universidad Católica de Chile
+      year: 2019      
     - course: BA in Economics
       institution: Universidad de Chile
-      year: 2008
+      year: 2016
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
