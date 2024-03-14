@@ -67,8 +67,8 @@ skills:
       - name: Stata
         description: ''
         percent: 75
-        icon: stata
-        icon_pack: icons
+        icon: stata.svg
+        #icon_pack: icons
       - name: Fortran
         description: ''
         percent: 75
