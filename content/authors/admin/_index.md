@@ -96,9 +96,6 @@ social:
   - icon: linkedin
     icon_pack: fab
     link: www.linkedin.com/in/félix-ordóñez-jofré-a45467110
-  # Link to a PDF of your resume/CV.
-  # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
-  # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
     link: uploads/resume.pdf
@@ -107,5 +104,5 @@ social:
 highlight_name: true
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a Phd student in Finance. My work is in the fields of Macro, Hosehold Finance and Computational Economics. I was a researcher at the [Faculty of Economics at Universidad de Santiago de Chile](https://fae.usach.cl/fae/), and also contributed as a programmer to the [Dynare-Julia](https://github.com/DynareJulia/Dynare.jl) project. I was consultant in International Labor Organization and economist in the Central Bank of Chile. 
 {style="text-align: justify;"}
