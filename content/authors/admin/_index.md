@@ -62,22 +62,22 @@ skills:
       - name: Julia
         description: ''
         percent: 100
-        icon: assets/media/icons/brands/julia
+        icon: julia
         #icon_pack: devicon
       - name: Stata
         description: ''
         percent: 75
-        icon: assets/media/icons/brands/stata
+        icon: stata
         #icon_pack: devicon
       - name: Fortran
         description: ''
         percent: 75
-        icon: assets/media/icons/brands/fortran
+        icon: fortran
         #icon_pack: devicon
       - name: C++
         description: ''
         percent: 50
-        icon: assets/media/icons/brands/cplusplus
+        icon: cplusplus
         #icon_pack: devicon
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -106,5 +106,5 @@ highlight_name: true
 
 I am a Phd student in Finance. My work is in the fields of Macro, Hosehold Finance and Computational Economics. I was a researcher at the [Faculty of Economics at Universidad de Santiago de Chile](https://fae.usach.cl/fae/), and also contributed as a programmer to the [Dynare-Julia](https://github.com/DynareJulia/Dynare.jl) project. I was consultant in International Labor Organization and economist in the Central Bank of Chile. 
 
-icon:fas/download Download my [CV](uploads/resume.pdf)
+Download my [CV](uploads/resume.pdf)
 {style="text-align: justify;"}
