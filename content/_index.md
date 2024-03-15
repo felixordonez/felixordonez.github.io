@@ -145,6 +145,14 @@ sections:
       columns: '2'
       view: citation
   - block: collection
+    id: policypapers
+    content:
+      title: Policy papers
+      text: ''
+    design:
+      columns: '2'
+      view: citation
+  - block: collection
     id: posts
     content:
       title: Recent Posts
