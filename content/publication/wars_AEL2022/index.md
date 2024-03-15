@@ -1,7 +1,9 @@
 ---
 title: "Wars, cartels and COVID-19: regime switching in commodity prices"
 authors:
+- Rodrigo Caputo
 - admin
+
 date: "2022-10-15T00:00:00Z"
 doi: "doi.org/10.1080/13504851.2022.2133892"
 
@@ -17,26 +19,26 @@ publication_types: ["article"]
 publication: ""
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Commodity prices are extremely volatile, and volatility itself fluctuates over time. Using data from 1959 to 2022, we estimate a 3-state Markov-switching model to identify expansions and contractions in oil and copper price volatility. We found a transition from a low to a medium variance regime for the oil price, in 1979, reflecting changes in the oil market structure. In addition, we identify infrequent and short-lived episodes of unusually high oil price volatility. For copper, there is no transition across regimes, and episodes of high volatility are not synchronized with the periods of high volatility in oil prices. We found that oil prices are much more volatile than copper prices in all states. Oil prices react more strongly to market cartelization, war episodes, and global demand shifts, like the 2008 Great Recession and the COVID-19.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+#summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
 - Source Themes
 featured: false
 
 links:
-- name: Custom Link
-  url: http://example.org
+#- name: Custom Link
+#  url: http://example.org
 url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_dataset: '#'
-url_poster: '#'
-url_project: ''
-url_slides: ''
-url_source: '#'
-url_video: '#'
+url_code: 'https://github.com/FOJ-0/Regime-switching-in-commodity-prices'
+#url_dataset: '#'
+#url_poster: '#'
+#url_project: ''
+#url_slides: ''
+#url_source: '#'
+#url_video: '#'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
