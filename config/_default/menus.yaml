@@ -9,13 +9,13 @@ main:
     weight: 10
   - name: Publications
     url: '#publications'
-    weight: 20    
+    weight: 15    
   - name: Posts
     url: '#posts'
     weight: 20
   - name: Teaching
     url: '#featured'
-    weight: 20
+    weight: 25
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
