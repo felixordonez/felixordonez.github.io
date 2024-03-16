@@ -5,7 +5,7 @@ authors:
 - admin
 
 date: "2022-10-15T00:00:00Z"
-doi: "doi.org/10.1080/13504851.2022.2133892"
+#doi: "doi.org/10.1080/13504851.2022.2133892"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2017-01-01T00:00:00Z"
@@ -31,7 +31,7 @@ featured: false
 links:
 #- name: Custom Link
 #  url: http://example.org
-url_pdf: http://arxiv.org/pdf/1512.04133v1
+url_pdf: https://doi.org/10.1080/13504851.2022.2133892
 url_code: 'https://github.com/FOJ-0/Regime-switching-in-commodity-prices'
 #url_dataset: '#'
 #url_poster: '#'
@@ -63,8 +63,3 @@ projects:
 #slides: example
 ---
 
-#{{% callout note %}}
-#Create your slides in Markdown - click the *Slides* button to check #out the example.
-#{{% /callout %}}
-
-#Add the publication's **full text** or **supplementary notes** here. #You can use rich formatting such as including [code, math, and #images](https://docs.hugoblox.com/content/writing-markdown-latex/).
