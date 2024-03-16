@@ -1,5 +1,5 @@
 ---
-title: "Wars, cartels and COVID-19: regime switching in commodity prices"
+title: "Escape Clauses for Escaping Default"
 authors:
 - Rodrigo Caputo
 - admin
