@@ -10,6 +10,12 @@ main:
   - name: Publications
     url: '#publications'
     weight: 15    
+  - name: Projects
+    url: '#wp'
+    weight: 16   
+  - name: Policy
+    url: '#policypapers'
+    weight: 17       
   - name: Posts
     url: '#posts'
     weight: 20
