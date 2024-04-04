@@ -134,10 +134,11 @@ sections:
     design:
       columns: '2'
       view: citation
-  - block: wp
+  - block: collection
     id: wps
     content:
       title: Work in progress
+      count: 5
       text: ''
       filters:
         folders:
