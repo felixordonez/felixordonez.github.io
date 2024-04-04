@@ -142,7 +142,7 @@ sections:
       filters:
         folders:
           - wp
-        exclude_featured: true
+        exclude_featured: false
       # Choose a user to display skills from (a folder name within `content/authors/`)
       #username: admin
     design:
