@@ -135,7 +135,7 @@ sections:
       columns: '2'
       view: citation
   - block: wp
-    #id: wps
+    id: wps
     content:
       title: Work in progress
       text: ''
