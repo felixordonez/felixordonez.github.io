@@ -139,6 +139,8 @@ sections:
     content:
       title: Work in progress
       text: ''
+      folder: 
+        - wp
       # Choose a user to display skills from (a folder name within `content/authors/`)
       #username: admin
     design:
