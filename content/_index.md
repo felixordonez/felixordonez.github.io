@@ -134,8 +134,8 @@ sections:
     design:
       columns: '2'
       view: citation
-  - block: collection
-    id: wps
+  - block: wps
+    #id: wps
     content:
       title: Work in progress
       text: ''
