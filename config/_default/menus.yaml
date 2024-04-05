@@ -7,12 +7,12 @@ main:
   - name: Home
     url: '#about'
     weight: 10
-  - name: Publications
+  - name: Research
     url: '#publications'
     weight: 15    
   - name: Projects
     url: '#wps'
-    parent: 'Publications'
+    parent: 'Research'
     weight: 16   
   - name: Policy
     url: '#policypapers'
