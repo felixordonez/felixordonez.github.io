@@ -122,11 +122,11 @@ sections:
   - block: collection
     id: publications
     content:
-      page_type: publication
+      #page_type: publication
       title: Publications
       text: 
       filters:
-        #publication_type: '2'
+        publication_type: '2'
         folders:
           - publication
         exclude_featured: false
