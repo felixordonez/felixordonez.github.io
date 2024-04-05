@@ -136,13 +136,6 @@ sections:
     design:
       columns: '2'
       view: card
-  - block: skills
-    content:
-      title: Skills
-      text: ''
-      # Choose a user to display skills from (a folder name within `content/authors/`)
-      username: admin
-    design:
-      columns: '2'
+
 
 ---
