@@ -1,14 +1,13 @@
 # SITE SETUP
-# Guide: https://wowchemy.com/docs/getting-started/
-# Documentation: https://wowchemy.com/docs/
+# Guide: https://docs.hugoblox.com/tutorial/
+# Documentation: https://docs.hugoblox.com/
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 # Appearance
 
 appearance:
-  theme_day: 1950s
-  theme_night: 1950s
-  day_night: true
+  theme_day: minimal
+  theme_night: minimal
   font: minimal
   font_size: L
 
@@ -19,11 +18,13 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'Associate Prof of Economics at SciencesPo Paris'
-    twitter: 'FlorianOswald'
+    description: 'A highly-customizable Hugo academic resume theme powered by Hugo Blox Builder.'
+    twitter: 'GetResearchDev'
   analytics:
-    google_tag_manager: 'G-3DVJJTSL8D'
+    google_analytics: ''
     baidu_tongji: ''
+    google_tag_manager: ''
+    microsoft_clarity: ''
   verification:
     google: ''
     baidu: ''
@@ -69,7 +70,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/floswald/floswald.github.io'
+    url: 'https://github.com/<username>/<repository>'
     content_dir: content
     branch: main
   avatar:
@@ -95,7 +96,7 @@ features:
       index_name: ''
       show_logo: false
   map:
-    provider: ''
+    provider: 'mapnik'
     api_key: ''
     zoom: 15
 
@@ -107,6 +108,8 @@ extensions:
     local_backend: false
   academicons:
     enable: true
+#  devicon:
+#    enable: true
 
 # Security
 
