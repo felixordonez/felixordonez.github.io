@@ -162,6 +162,9 @@ sections:
     content:
       title: Policy papers
       text: ''
+    filters:
+        folders:
+          - policypapers
     design:
       columns: '2'
       view: citation
