@@ -143,7 +143,7 @@ sections:
       filters:
         #publication_type: '3'
         folders:
-          - wp
+          - content/wp
         exclude_featured: false
       # Choose a user to display skills from (a folder name within `content/authors/`)
       #username: admin
