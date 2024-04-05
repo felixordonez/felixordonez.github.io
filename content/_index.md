@@ -123,14 +123,11 @@ sections:
     id: publications
     content:
       title: Publications
-      text: |-
-        {{% callout note %}}
-        Quickly discover relevant content by [filtering publications](./publication/).
-        {{% /callout %}}
+      text: 
       filters:
         folders:
           - publication
-        exclude_featured: true
+        exclude_featured: false
     design:
       columns: '2'
       view: citation
@@ -138,7 +135,7 @@ sections:
     id: wps
     content:
       title: Work in progress
-      count: 5
+      count: 0
       text: ''
       filters:
         folders:
