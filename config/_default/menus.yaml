@@ -8,20 +8,43 @@ main:
     url: '#about'
     weight: 10
   - name: Research
-    url: '#publications'
-    weight: 15    
-  - name: Projects
-    url: '#wps'
-    weight: 16   
-  - name: Policy
-    url: '#policypapers'
-    weight: 17       
-  - name: Posts
-    url: '#posts'
+    url: '#research'
     weight: 20
+  - name: Projects
+    url: '#projects'
+    weight: 3
+    parent: 'Research'
+  - name: Publications
+    url: '#publications'
+    parent: 'Research'
+    weight: 1
+  - name: Working Papers
+    url: '#publications_selected'
+    parent: 'Research'
+    weight: 2
   - name: Teaching
-    url: '#featured'
-    weight: 25
+    url: '#teaching'
+    weight: 30
+  - name: Miscellaneous
+    url: ''
+    weight: 60
+    identifier: 'misc'
+  - name: Computing
+    url: 'computing'
+    weight: 1
+    parent: 'misc'
+  - name: Research Assistants
+    url: 'research-assistants'
+    weight: 2
+    parent: 'misc'
+  - name: Talks
+    url: '#talks'
+    weight: 3
+    parent: 'misc'
+  - name: Blog
+    url: '#posts'
+    weight: 4
+    parent: 'misc'
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
