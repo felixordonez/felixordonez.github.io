@@ -20,7 +20,7 @@ main:
     url: '#posts'
     weight: 20
   - name: Teaching
-    url: '#featured'
+    url: '#teaching'
     weight: 25
 
 # Link to a PDF of your resume/CV from the menu.

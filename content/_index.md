@@ -126,12 +126,12 @@ sections:
 
       
   - block: collection
-    id: featured
+    id: teaching
     content:
       title: Teaching #Featured Publications
       filters:
         folders:
-          - publication
+          - teach
         featured_only: true
     design:
       columns: '2'
