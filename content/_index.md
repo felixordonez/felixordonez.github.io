@@ -80,22 +80,17 @@ sections:
       columns: '2'
       view: citation
 
-
   - block: collection
     id: policypapers
     content:
+      #page_type: publication
       title: Policy papers
-      text: ''
-    filters:
+      text: 
+      filters:
+        #publication_type: '2'
         folders:
-          - policypapers
-        author: ""
-        category: ""
-        tag: ""
+          - policypaper
         exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""          
     design:
       columns: '2'
       view: citation
