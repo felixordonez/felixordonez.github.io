@@ -8,12 +8,12 @@ date: "2024-02-08T00:00:00Z"
 #doi: "doi.org/10.1080/13504851.2022.2133892"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2024-02-07T00:00:00Z"
+publishDate: "2024-01-01T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ["3"]
+publication_types: ["article"]
 
 # Publication name and optional abbreviated publication name.
 publication: SNNR
