@@ -4,7 +4,7 @@ authors:
 - Rodrigo Caputo
 - admin
 
-date: "2024-02-08T00:00:00Z"
+date: "2024-08-02T00:00:00Z"
 #doi: "doi.org/10.1080/13504851.2022.2133892"
 
 # Schedule page publish date (NOT publication's date).
@@ -13,7 +13,7 @@ publishDate: "2024-08-02T00:00:00Z"
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ["article"]
+publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
 publication: SNNR
