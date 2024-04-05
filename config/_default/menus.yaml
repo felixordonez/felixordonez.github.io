@@ -12,6 +12,7 @@ main:
     weight: 15    
   - name: Projects
     url: '#wps'
+    parent: 'Publications'
     weight: 16   
   - name: Policy
     url: '#policypapers'
