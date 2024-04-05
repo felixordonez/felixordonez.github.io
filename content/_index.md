@@ -136,14 +136,14 @@ sections:
   - block: collection
     id: wps
     content:
-      page_type: wp
+      #page_type: wp
       title: Work in progress
-      count: 0
+      #count: 0
       text: ''
       filters:
-        publication_type: '3'
-        #folders:
-        #  - wp
+        #publication_type: '3'
+        folders:
+          - wp
         exclude_featured: false
       # Choose a user to display skills from (a folder name within `content/authors/`)
       #username: admin
