@@ -16,7 +16,7 @@ publishDate: "2024-01-01T00:00:00Z"
 publication_types: ["article"]
 
 # Publication name and optional abbreviated publication name.
-publication: ""
+publication: "SSRN"
 publication_short: ""
 
 abstract: We study the benefits of introducing escape clauses into debt limit rules. These clauses mitigate the trade-off between expanding government transfers and repaying debt, that policymakers face in recessions. In adverse cycles, the government can issue more debt to sustain government transfers and debt payments, reducing both the probability of default and the sovereign spread. The benefits of escape clauses are present even when they are not active. 
