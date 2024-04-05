@@ -1,14 +1,17 @@
 ---
-title: "Escape Clauses for Escaping Default"
+title: "Tendencias de la seguridad social con foco en los sistemas de pensiones y la  seguridad económica de las personas mayores"
 authors:
-- Rodrigo Caputo
+- Fabio Bertranou
+- Pablo Casalí
+- Oscar Cetrángolo
 - admin
+- Mario Velásquez
 
-date: "2023-10-15T00:00:00Z"
+date: "2022-12-01T00:00:00Z"
 #doi: "doi.org/10.1080/13504851.2022.2133892"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2024-01-01T00:00:00Z"
+publishDate: "2022-12-01T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -16,15 +19,15 @@ publishDate: "2024-01-01T00:00:00Z"
 publication_types: ["article"]
 
 # Publication name and optional abbreviated publication name.
-publication: ""
+publication: "ILO"
 publication_short: ""
 
-abstract: We study the benefits of introducing escape clauses into debt limit rules. These clauses mitigate the trade-off between expanding government transfers and repaying debt, that policymakers face in recessions. In adverse cycles, the government can issue more debt to sustain government transfers and debt payments, reducing both the probability of default and the sovereign spread. The benefits of escape clauses are present even when they are not active. 
+abstract: ''
 
 links:
 #- name: Custom Link
 #  url: http://example.org
-url_pdf: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4326296
+url_pdf: https://www.ilo.org/wcmsp5/groups/public/---americas/---ro-lima/documents/publication/wcms_864517.pdf
 #url_code: 
 #url_dataset: '#'
 #url_poster: '#'
