@@ -122,6 +122,7 @@ sections:
   - block: collection
     id: publications
     content:
+      page_type: publication
       title: Publications
       text: 
       filters:
@@ -135,6 +136,7 @@ sections:
   - block: collection
     id: wps
     content:
+      page_type: wp
       title: Work in progress
       count: 0
       text: ''
