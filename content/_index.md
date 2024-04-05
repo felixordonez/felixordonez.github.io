@@ -127,8 +127,8 @@ sections:
       text: 
       filters:
         publication_type: '2'
-        folders:
-          - publication
+        #folders:
+        #  - publication
         exclude_featured: false
     design:
       columns: '2'
@@ -142,8 +142,8 @@ sections:
       text: ''
       filters:
         publication_type: '3'
-        folders:
-          - wp
+        #folders:
+        #  - wp
         exclude_featured: false
       # Choose a user to display skills from (a folder name within `content/authors/`)
       #username: admin
