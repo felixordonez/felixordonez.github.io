@@ -131,21 +131,21 @@ sections:
     design:
       columns: '2'
       view: citation
-  - block: collection
-    id: wps
-    content:
-      title: Work in progress
-      count: 0
-      text: ''
-      filters:
-        folders:
-          - wp
-        exclude_featured: false
+#  - block: collection
+#    id: wps
+#    content:
+#      title: Work in progress
+#      count: 0
+#      text: ''
+#      filters:
+#        folders:
+#          - wp
+#        exclude_featured: false
       # Choose a user to display skills from (a folder name within `content/authors/`)
       #username: admin
-    design:
-      columns: '2'
-      view: citation
+#    design:
+#      columns: '2'
+#      view: citation
   - block: collection
     id: policypapers
     content:
