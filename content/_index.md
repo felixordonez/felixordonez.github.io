@@ -126,7 +126,7 @@ sections:
       title: Publications
       text: 
       filters:
-        publication_type: '2'
+        #publication_type: '2'
         folders:
           - publication
         exclude_featured: false
