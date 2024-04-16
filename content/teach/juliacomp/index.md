@@ -14,5 +14,4 @@ The webpage of the course is [here](https://felixordonez.github.io/Computational
     print("Hello world")
     ```
 
-![Alt Text](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTV6cXZjZ2kxYXB5cWFqaXJ5aXBkcDluYmEwZjhyNnN6MzU0ejd1NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/H1dxi6xdh4NGQCZSvz/giphy.gif)
-![Alt Text](waves.gif)
+![Alt Text](https://julialang.org/assets/infra/waves.gif)
