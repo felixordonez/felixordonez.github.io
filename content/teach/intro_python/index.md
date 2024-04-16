@@ -14,3 +14,4 @@ This course introduces Python (in spanish). The webpage is [here](https://felixo
     print("Hello world!")
     ```
 
+![Alt Text](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHZxN3VhcXhxZm9lbmwxNDcxODg4cmpsMmlpcDF1a3U2OHp2NHB1OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JIX9t2j0ZTN9S/giphy.gif)
