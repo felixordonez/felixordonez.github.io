@@ -92,7 +92,7 @@ social:
     link: https://scholar.google.com/citations?user=joOxKakAAAAJ&hl=en
   - icon: github
     icon_pack: fab
-    link: https://github.com/FOJ-0
+    link: https://github.com/felixordonez
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/félix-ordóñez-jofré-a45467110
@@ -104,7 +104,7 @@ social:
 highlight_name: true
 ---
 
-I am a Phd student in Finance. My work is in the fields of Macro, Hosehold Finance and Computational Economics. I was a researcher at the [Faculty of Economics at Universidad de Santiago de Chile](https://fae.usach.cl/fae/), and also contributed as a programmer to the [Dynare-Julia](https://github.com/DynareJulia/Dynare.jl) project. I was consultant in International Labor Organization and economist in the Central Bank of Chile. 
+I am a Phd student in Finance. My work is in the fields of Macro, Hosehold Finance and Computational Economics. I was a researcher at the [Faculty of Economics at Universidad de Santiago de Chile](https://fae.usach.cl/fae/), and also contributed as a programmer to the [Dynare-Julia](https://github.com/DynareJulia/Dynare.jl) project.
 
 🔽 Download my [CV](uploads/resume.pdf)
 {style="text-align: justify;"}
