@@ -1,5 +1,5 @@
 ---
-title: "Collective Pensions Funds, Social Welfare and Efficiency: the Trade-offs of Pension Redistribution"
+title: "Pension inequality and collective pensions funds: the trade-offs of pension redistribution"
 authors:
 - Rodrigo Caputo
 - admin
@@ -16,15 +16,15 @@ publishDate: "2024-02-08T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: SSRN
+publication: Applied Economics 
 publication_short: ""
 
-abstract: "In a fully funded defined contribution (FDC) pension scheme, pensions depend only on idiosyncratic elements. As a result, pension inequality reflects productivity differences across individual in the society. In this paper, we assess the macroe- conomic and welfare consequences of introducing a collective defined contribution (CDC) scheme. This is aimed to reduce pension inequality within the FDC pension system, by redistributing more resources to low productivity pensioners. We find that the introduction of CDC increases the stock of capital and aggregate GDP in the economy. At the same time, it generates a decline in private savings, with no significant changes in consumption. This policy is, in the aggregate, welfare improving, although high productivity workers reduce their consumption level and their welfare. In the absence of a CDC scheme, a reduction in pension inequality could be achieved through increase in taxes. This, however, reduces welfare for both, low-productivity and high- productivity workers. The decline in welfare is more severe if taxes to capital are chosen as the instrument. Taxes on labor and on consumption reduce welfare less severely, but are still inefficient policies compared to the introduction of a CDC scheme."
+abstract: "This paper evaluates the macroeconomic and welfare impacts of introducing a Collective Defined Contribution (CDC) scheme to reduce pension inequality within a Fully Funded Defined Contribution (FDC) system. Using an overlapping generations (OLG) model, we analyse the Chilean pension system to assess how a CDC scheme reallocates resources from high- to low-productivity pensioners, increasing overall welfare by improving the replacement rates of low-income retirees. Results show that implementing a CDC scheme boosts the capital stock and GDP while only slightly decreasing private savings and consumption. Although high-productivity workers experience a welfare loss due to increased contributions, the positive redistribution effect for low-productivity workers results in a net welfare gain for society. When compared to raising taxes on labour, capital, or consumption, the CDC scheme proves more efficient, as tax-based alternatives lead to larger welfare losses. Capital taxes significantly reduce investment and GDP, causing a 6.9% drop in steady-state consumption. Our findings are robust across different worker ratios, demonstrating that the CDC scheme is an effective policy for reducing pension inequality while supporting economic growth and maintaining overall welfare."
 
 links:
 #- name: Custom Link
 #  url: http://example.org
-url_pdf: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4721177
+url_pdf: https://doi.org/10.1080/00036846.2024.2425862
 #url_code: 
 #url_dataset: '#'
 #url_poster: '#'
