@@ -1,14 +1,14 @@
 ---
-title: "The failure of shock therapy during the Chilean military dictatorship (1974–1979)"
+title: "Wars, cartels and COVID-19: regime switching in commodity prices"
 authors:
 - Rodrigo Caputo
 - admin
 
-date: "2024-12-08T00:00:00Z"
+date: "2022-10-15T00:00:00Z"
 #doi: "doi.org/10.1080/13504851.2022.2133892"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2024-12-08T00:00:00Z"
+publishDate: "2017-01-01T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -16,16 +16,23 @@ publishDate: "2024-12-08T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: CEPAL Review 
+publication: Applied Economics Letters 
 publication_short: ""
 
-abstract: "This article analyses Chile’s monetary policy following the 1973 military coup and the failed attempt at nominal stabilization during the dictatorship. Two causes of persistent inflation are identified: (i) the narrowing of the fiscal deficit in 1974 was insufficient to curb high monetary issuance and inflation, thus perpetuating the inflation needed to finance the fiscal deficits; and (ii) the perception by economic agents that fiscal needs, financed through seigniorage, would not slow the growth of the monetary base and inflation. This perception kept inflation levels high following the coup. For the shock therapy to succeed, a greater reduction of the fiscal deficit and a perception that these lower deficits would be permanent would have been necessary. In the absence of a credible deficit reduction policy, inflation did not stabilize until the late 1970s."
+abstract: Commodity prices are extremely volatile, and volatility itself fluctuates over time. Using data from 1959 to 2022, we estimate a 3-state Markov-switching model to identify expansions and contractions in oil and copper price volatility. We found a transition from a low to a medium variance regime for the oil price, in 1979, reflecting changes in the oil market structure. In addition, we identify infrequent and short-lived episodes of unusually high oil price volatility. For copper, there is no transition across regimes, and episodes of high volatility are not synchronized with the periods of high volatility in oil prices. We found that oil prices are much more volatile than copper prices in all states. Oil prices react more strongly to market cartelization, war episodes, and global demand shifts, like the 2008 Great Recession and the COVID-19.
+
+# Summary. An optional shortened abstract.
+#summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+
+#tags:
+#- Source Themes
+#featured: false
 
 links:
 #- name: Custom Link
 #  url: http://example.org
-url_pdf: https://repositorio.cepal.org/server/api/core/bitstreams/406cda3e-3dba-420c-9082-30f3ff7edc33/content
-#url_code: 
+url_pdf: https://doi.org/10.1080/13504851.2022.2133892
+url_code: 'https://github.com/FOJ-0/Regime-switching-in-commodity-prices'
 #url_dataset: '#'
 #url_poster: '#'
 #url_project: ''
@@ -36,8 +43,23 @@ url_pdf: https://repositorio.cepal.org/server/api/core/bitstreams/406cda3e-3dba-
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
+  #caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
   focal_point: ""
   preview_only: false
 
+# Associated Projects (optional).
+#   Associate this publication with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `internal-project` references `content/project/internal-project/index.md`.
+#   Otherwise, set `projects: []`.
+#projects:
+#- internal-project
 
+# Slides (optional).
+#   Associate this publication with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides: "example"` references `content/slides/example/index.md`.
+#   Otherwise, set `slides: ""`.
+#slides: example
 ---
+
