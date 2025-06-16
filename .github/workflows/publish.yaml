@@ -50,11 +50,31 @@ jobs:
           echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
           hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
 
-      - name: Upload artifact (v4)
+      # ✅ Paso 1: Verificar symlinks y hardlinks
+      - name: Check for symlinks or hard links in ./public
+        run: |
+          echo "Symlinks found:"
+          find ./public -type l || echo "No symlinks"
+          echo "Hard links (inode duplicates):"
+          find ./public -type f -exec ls -li {} + | awk '{print $1}' | sort | uniq -d || echo "No hard links"
+
+      # ✅ Paso 2: Verificar tamaño total
+      - name: Check size of ./public
+        run: du -sh ./public
+
+      # ✅ Paso 3: Eliminar symlinks (opcional pero recomendado)
+      - name: Clean public folder (remove symlinks and hard links)
+        run: |
+          mkdir ./clean-public
+          rsync -a --no-links ./public/ ./clean-public/
+
+      # ✅ Paso 4: Subir artefacto limpio
+      - name: Upload artifact safely
         uses: actions/upload-artifact@v4
         with:
-          name: github-pages  # requerido por deploy-pages@v4
-          path: ./public
+          name: github-pages
+          path: ./clean-public
+
 
   deploy:
     if: github.repository_owner != 'HugoBlox'
