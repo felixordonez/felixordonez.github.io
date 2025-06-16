@@ -62,18 +62,19 @@ jobs:
       - name: Check size of ./public
         run: du -sh ./public
 
-      # ✅ Paso 3: Eliminar symlinks (opcional pero recomendado)
+      # ✅ Paso 3: Copiar limpio sin symlinks (mejor con tar)
       - name: Clean public folder (remove symlinks and hard links)
         run: |
-          mkdir ./clean-public
-          rsync -a --no-links ./public/ ./clean-public/
+          mkdir -p ./clean-public
+          tar cf - -C ./public . | tar xf - -C ./clean-public
+
+      # ✅ Paso extra: Listar y pesar
       - name: List contents of clean-public
         run: |
-          echo "Listing ./clean-public:"
+          echo "Files:"
           find ./clean-public
-          echo "Size of ./clean-public:"
+          echo "Size:"
           du -sh ./clean-public
-
 
       # ✅ Paso 4: Subir artefacto limpio
       - name: Upload artifact safely
