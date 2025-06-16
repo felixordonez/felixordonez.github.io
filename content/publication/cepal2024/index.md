@@ -1,8 +1,8 @@
 ---
 title: "The failure of shock therapy during the Chilean military dictatorship (1974–1979)"
 authors:
-- Rodrigo Caputo 
-  url: https://sites.google.com/a/fen.uchile.cl/rodrigo-caputo/
+
+- '<a href="https://sites.google.com/a/fen.uchile.cl/rodrigo-caputo/">Rodrigo Caputo</a>'  
 - admin
 
 date: "2024-12-08T00:00:00Z"
