@@ -67,6 +67,13 @@ jobs:
         run: |
           mkdir ./clean-public
           rsync -a --no-links ./public/ ./clean-public/
+      - name: List contents of clean-public
+        run: |
+          echo "Listing ./clean-public:"
+          find ./clean-public
+          echo "Size of ./clean-public:"
+          du -sh ./clean-public
+
 
       # ✅ Paso 4: Subir artefacto limpio
       - name: Upload artifact safely
