@@ -50,49 +50,32 @@ jobs:
           echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
           hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
 
-      # ✅ Paso 1: Verificar symlinks y hardlinks
-      - name: Check for symlinks or hard links in ./public
-        run: |
-          echo "Symlinks found:"
-          find ./public -type l || echo "No symlinks"
-          echo "Hard links (inode duplicates):"
-          find ./public -type f -exec ls -li {} + | awk '{print $1}' | sort | uniq -d || echo "No hard links"
-
-      # ✅ Paso 2: Verificar tamaño total
-      - name: Check size of ./public
-        run: du -sh ./public
-
-      # ✅ Paso 3: Copiar limpio sin symlinks (mejor con tar)
       - name: Clean public folder using tar to remove symlinks and hardlinks
         run: |
           mkdir -p ./clean-public
           tar cf - -C ./public . | tar xf - -C ./clean-public
 
-      - name: Verify clean-public folder integrity
+      - name: Final verification of clean-public
         run: |
           echo "Checking for symlinks:"
-          find ./clean-public -type l
+          find ./clean-public -type l || echo "No symlinks"
           echo "Checking for hardlinks:"
-          find ./clean-public -type f -exec ls -li {} + | awk '{print $1}' | sort | uniq -d
+          find ./clean-public -type f -exec ls -li {} + | awk '{print $1}' | sort | uniq -d || echo "No hard links"
+          echo "Listing files:"
+          find ./clean-public
           echo "Total size:"
           du -sh ./clean-public
 
-
-      # ✅ Paso extra: Listar y pesar
-      - name: List contents of clean-public
+      - name: Create clean zip of site
         run: |
-          echo "Files:"
-          find ./clean-public
-          echo "Size:"
-          du -sh ./clean-public
+          cd clean-public
+          zip -r ../github-pages.zip .
 
-      # ✅ Paso 4: Subir artefacto limpio
-      - name: Upload artifact safely
+      - name: Upload zipped site
         uses: actions/upload-artifact@v4
         with:
           name: github-pages
-          path: ./clean-public
-
+          path: github-pages.zip
 
   deploy:
     if: github.repository_owner != 'HugoBlox'
