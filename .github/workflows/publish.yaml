@@ -63,10 +63,20 @@ jobs:
         run: du -sh ./public
 
       # ✅ Paso 3: Copiar limpio sin symlinks (mejor con tar)
-      - name: Clean public folder (remove symlinks and hard links)
+      - name: Clean public folder using tar to remove symlinks and hardlinks
         run: |
           mkdir -p ./clean-public
           tar cf - -C ./public . | tar xf - -C ./clean-public
+
+      - name: Verify clean-public folder integrity
+        run: |
+          echo "Checking for symlinks:"
+          find ./clean-public -type l
+          echo "Checking for hardlinks:"
+          find ./clean-public -type f -exec ls -li {} + | awk '{print $1}' | sort | uniq -d
+          echo "Total size:"
+          du -sh ./clean-public
+
 
       # ✅ Paso extra: Listar y pesar
       - name: List contents of clean-public
