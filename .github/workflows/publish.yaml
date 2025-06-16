@@ -52,7 +52,7 @@ jobs:
           hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
 
       - name: Upload GitHub Pages artifact
-        uses: actions/upload-pages-artifact@v2  # ✅ USO CORRECTO
+        uses: actions/upload-pages-artifact@v3.0.0-beta.2  # ✅ USO CORRECTO
         with:
           path: ./public
 
