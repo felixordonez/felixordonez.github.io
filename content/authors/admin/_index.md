@@ -104,7 +104,7 @@ social:
 highlight_name: true
 ---
 
-I am a Phd student in Finance. My work is in the fields of Macro, Hosehold Finance and Computational Economics. I was a researcher at the [Faculty of Economics at Universidad de Santiago de Chile](https://fae.usach.cl/fae/), and also contributed as a programmer to the [Dynare-Julia](https://github.com/DynareJulia/Dynare.jl) project.
+I am a PhD student in Finance at [BI](https://www.bi.edu/research/find-department/department-of-finance/). My research interests are in the fields of Hosehold Finance, Macro, and Computational Economics. I was a researcher at the [Faculty of Economics at Universidad de Santiago de Chile](https://fae.usach.cl/fae/), and also contributed as a programmer to the [Dynare-Julia](https://github.com/DynareJulia/Dynare.jl) project.
 
 🔽 Download my [CV](uploads/resume.pdf)
 {style="text-align: justify;"}
